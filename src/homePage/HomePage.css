@@ -1,0 +1,31 @@
+.homepage-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  min-height: 900px;
+  height: 100vh;
+  width: 100%;
+}
+.homepage-container .homepage-sidebar-right {
+  display: inline-flex;
+  height: 100%;
+  width: 400px;
+  margin-top: 190px;
+  background-color: #324a5f;
+}
+.homepage-container .homepage-sidebar-left {
+  display: inline-flex;
+  height: 100%;
+  width: 400px;
+  margin-top: 190px;
+  background-color: #324a5f;
+}
+.homepage-container .homepage-mainthread {
+  color: #fefefe;
+  background-color: #1B2A41;
+  margin-top: 190px;
+  padding-top: 20px;
+  width: 70%;
+  border-left: 2px solid #1B2A41;
+  border-right: 2px solid #1B2A41;
+}
